@@ -6,12 +6,11 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
-  <title>Your awesome title</title>
-  <meta name="description" content="Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description.
-">
+  <title>Summary for build this blog</title>
+  <meta name="description" content="建站)总结">
 
   <link rel="stylesheet" href="/css/main.css">
-  <link rel="canonical" href="http://yourdomain.com/">
+  <link rel="canonical" href="http://yourdomain.com/2016/05/23/summary.html">
   <link rel="alternate" type="application/rss+xml" title="Your awesome title" href="http://yourdomain.com/feed.xml">
 </head>
 
@@ -55,49 +54,43 @@
 
     <div class="page-content">
       <div class="wrapper">
-        <div class="home">
+        <article class="post" itemscope itemtype="http://schema.org/BlogPosting">
 
-  <h1 class="page-heading">Posts</h1>
+  <header class="post-header">
+    <h1 class="post-title" itemprop="name headline">Summary for build this blog</h1>
+    <p class="post-meta"><time datetime="2016-05-23T11:05:19+08:00" itemprop="datePublished">May 23, 2016</time> • <span itemprop="author" itemscope itemtype="http://schema.org/Person"><span itemprop="name">thusrda</span></span></p>
+  </header>
 
-  <ul class="post-list">
-    
-      <li>
-        <span class="post-meta">May 23, 2016</span>
+  <div class="post-content" itemprop="articleBody">
+    <h1 id="httppizidacomtechnology20160303use-jekyll-create-blog-on-github"><a href="http://pizida.com/technology/2016/03/03/use-jekyll-create-blog-on-github/">建站</a>)总结</h1>
 
-        <h2>
-          <a class="post-link" href="/2016/05/23/summary.html">Summary for build this blog</a>
-        </h2>
-      </li>
-    
-      <li>
-        <span class="post-meta">May 23, 2016</span>
+<ol>
+  <li>
+    <p>在_post 下新建符合jekyll 规范的 markdown 文件</p>
 
-        <h2>
-          <a class="post-link" href="/jekyll/2016/05/23/testurl.html">test Title</a>
-        </h2>
-      </li>
-    
-      <li>
-        <span class="post-meta">May 23, 2016</span>
+    <blockquote>
+      <p>可以使用 <code class="highlighter-rouge">rake new</code> 简化操作,生成头部。markdown格式参考<a href="https://help.github.com/articles/basic-writing-and-formatting-syntax/">这里</a></p>
+    </blockquote>
+  </li>
+  <li>
+    <p>使用<code class="highlighter-rouge">jekyll</code>生成静态文件</p>
 
-        <h2>
-          <a class="post-link" href="/jekyll/update/2016/05/23/welcome-to-jekyll.html">Welcome to Jekyll!---test</a>
-        </h2>
-      </li>
-    
-      <li>
-        <span class="post-meta">May 23, 2016</span>
+    <p><code class="highlighter-rouge">jekyll serve -B 或 jekyll build</code></p>
+  </li>
+  <li>
+    <p>使用git提交更改并上传到github仓库,( 在这之前可以在本地站点查看文章是否有需要修改的地方)</p>
 
-        <h2>
-          <a class="post-link" href="/jekyll/update/2016/05/23/test.html">This is a test page copy from welcom-to-jekyll</a>
-        </h2>
-      </li>
-    
-  </ul>
+    <p><code class="highlighter-rouge">
+ git add --a 
+ git commit -m "这里写提交说明" 
+ git push origin master  
+</code></p>
+  </li>
+</ol>
 
-  <p class="rss-subscribe">subscribe <a href="/feed.xml">via RSS</a></p>
+  </div>
 
-</div>
+</article>
 
       </div>
     </div>
