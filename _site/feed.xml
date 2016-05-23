@@ -6,13 +6,40 @@
 </description>
     <link>http://yourdomain.com/</link>
     <atom:link href="http://yourdomain.com/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Mon, 23 May 2016 09:46:57 +0800</pubDate>
-    <lastBuildDate>Mon, 23 May 2016 09:46:57 +0800</lastBuildDate>
+    <pubDate>Mon, 23 May 2016 10:37:35 +0800</pubDate>
+    <lastBuildDate>Mon, 23 May 2016 10:37:35 +0800</lastBuildDate>
     <generator>Jekyll v3.1.6</generator>
     
       <item>
+        <title>本博客建立总结</title>
+        <description>&lt;h1 id=&quot;section&quot;&gt;总结&lt;/h1&gt;
+&lt;ol&gt;
+  &lt;li&gt;在_post 文件夹下写符合&lt;strong&gt;jekyll&lt;/strong&gt;规范的文章&lt;/li&gt;
+  &lt;li&gt;使用&lt;strong&gt;jekyll bulid&lt;/strong&gt;来生成静态站点&lt;/li&gt;
+  &lt;li&gt;使用&lt;strong&gt;git&lt;/strong&gt;提交修改，并推送到github仓库
+    &lt;ul&gt;
+      &lt;li&gt;git add&lt;/li&gt;
+      &lt;li&gt;git commit “0000”&lt;/li&gt;
+      &lt;li&gt;git push&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ol&gt;
+</description>
+        <pubDate>Mon, 23 May 2016 10:30:35 +0800</pubDate>
+        <link>http://yourdomain.com/%E6%8A%80%E6%9C%AF/2016/05/23/%E4%BD%BF%E7%94%A8jekyll%E5%9C%A8github-pages%E5%BB%BA%E7%AB%8B%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2%E6%80%BB%E7%BB%93.html</link>
+        <guid isPermaLink="true">http://yourdomain.com/%E6%8A%80%E6%9C%AF/2016/05/23/%E4%BD%BF%E7%94%A8jekyll%E5%9C%A8github-pages%E5%BB%BA%E7%AB%8B%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2%E6%80%BB%E7%BB%93.html</guid>
+        
+        <category>jekyll githubPages</category>
+        
+        
+        <category>技术</category>
+        
+      </item>
+    
+      <item>
         <title>test Title</title>
-        <description>&lt;h2 id=&quot;section&quot;&gt;###测试&lt;/h2&gt;
+        <description>&lt;h3 id=&quot;section&quot;&gt;测试&lt;/h3&gt;
+&lt;hr /&gt;
 &lt;p&gt;这是一篇测试文章，用来测试’‘Rakefile’‘是否正常工作&lt;/p&gt;
 </description>
         <pubDate>Mon, 23 May 2016 09:44:12 +0800</pubDate>
