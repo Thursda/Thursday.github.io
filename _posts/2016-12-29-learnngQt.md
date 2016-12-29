@@ -8,7 +8,7 @@ categories: qt
 tag: qt
 ---
 
-#####在苹果上使用Qt连接sqlite时,使用如下代码连接数据库时候总会报错“out of memory"错误
+##### 在苹果上使用Qt连接sqlite时,使用如下代码连接数据库时候总会报错“out of memory"错误
 
 ```C++
 bool connect(const QString &dbName)
