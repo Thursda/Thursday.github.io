@@ -2,7 +2,7 @@
 layout: post
 title: 在QT中使用sqlite
 subtitle: 
-author: pizida
+author: Thursday
 date: 2016-12-29 11:07:27 +0800
 categories: qt
 tag: qt
